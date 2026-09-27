@@ -3,6 +3,10 @@
 A native Windows desktop **POS + inventory + accounting + warranty + repair** system for a computer, laptop and
 accessories shop. Offline-first, one `.exe`, no internet and no database server needed.
 
+[![Download for Windows](https://img.shields.io/badge/Download-Windows%20Installer-2E86DE?style=for-the-badge&logo=windows)](https://github.com/BSCE22029/shoppos/releases/latest)
+[![Tests](https://img.shields.io/badge/tests-174%20passing-27AE60?style=for-the-badge)](#test-results)
+[![Python](https://img.shields.io/badge/Python-stdlib%20only-3776AB?style=for-the-badge&logo=python&logoColor=white)](#architecture)
+
 * Written in **Python** using only the standard library (Tkinter for the window, SQLite for data) -
   there is nothing to `pip install` to run it, and the packaged app needs **no Python, .NET or anything else** on the shop PC.
 * ~9,600 lines, 80 automated tests, plus two full UI workflow tests and a 100,000-sale load test (results below).
